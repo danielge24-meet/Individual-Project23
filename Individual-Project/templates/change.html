@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>edit profile</title>
+</head>
+<body style="min-height: 100vh;
+    background: linear-gradient(#FFEED6,#1A1110);
+    color: white;">
+	<form method="POST" action="/change">
+		<div>
+            <label>username</label>
+            <div>
+                <input type="text"  name="username"  required style="border-color: black; background-color: #FFEED6;">
+            </div>
+        </div>
+        <div>
+            <label>bio</label>
+            <div>
+                <input type="text"  name="bio" required style="border-color: black; background-color: #FFEED6;">
+            </div>
+        </div>
+        <div>
+            <label>profile picture</label>
+            <div>
+                <input type="text"  name="pfp" required style="border-color: black; background-color: #FFEED6;">
+            </div>
+        </div>
+        <div>
+            <input type="submit"/>
+        </div>
+	</form>
+
+</body>
+</html>
