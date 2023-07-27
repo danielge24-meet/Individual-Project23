@@ -28,14 +28,12 @@
         </div>
     </nav>
     {% if p!=None%}
-	{%for memory in p%}
 		<div>
 		<img src="{{p['image']}}" style="max-width: 20%;max-height: 10%;">
 		<p>{{p['title']}}</p>
 		<p>{{p['text']}}</p>
 		<br>
 		</div>
-	{%endfor%}
 	{%endif%}
 
 </body>
